@@ -3,13 +3,20 @@ layout: default
 title: Home
 ---
 
-# Tech Blog
+# {{ site.title }}
 
-Short introduction to your blog.
+<p class="tagline">{{ site.description }}</p>
 
-## Posts
+{% assign about = site.pages | where: "name", "about.md" | first %}
+
+## Core expertise
+
+{% for item in about.expertise %}
+- {{ item }}
+{% endfor %}
+
+## Table of contents
 
 {% for post in site.posts %}
-- [{{ post.title }}]({{ post.url | relative_url }})  
-  <small>{{ post.date | date: "%B %-d, %Y" }}</small>
+- [{{ post.title }}]({{ post.url | relative_url }})
 {% endfor %}
