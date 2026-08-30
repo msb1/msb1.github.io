@@ -1,3 +1,4 @@
-theme: jekyll-theme-minimal
 title: Axoryq AI Innovations
 description: Next-gen AI innovations for a contemporary world
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title/

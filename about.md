@@ -2,9 +2,14 @@
 layout: default
 title: About
 permalink: /about/
+page_shell: true
 ---
 
-# Core Expertise
+# About Axoryq AI Innovations
+
+Axoryq AI Innovations builds useful AI systems for real-world organizations. We pair generative AI and machine learning with the platforms, workflows, and engineering practices required to operate confidently at scale.
+
+## Core Expertise
 
 * Agentic AI & Orchestration: Multi-agent systems, planner/executor and supervisor patterns, tool routers, critic/reviewer agents, memory, workflow orchestration, function calling, MCP, A2A. (LangGraph, LangChain, LlamaIndex)
 
