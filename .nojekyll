@@ -1,0 +1,1 @@
+Static site: bypass Jekyll processing so GitHub Pages serves index.html directly.
